@@ -1,0 +1,73 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	font-family: bold, consolas;
+	height: 100%;
+}
+
+#calculator {
+	width: 325px;
+	height: auto;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: #9d9d9d;
+	border-radius: 5px;
+}
+
+.up .output {
+	height: 40px;
+	width: 200px;
+	float: right;
+	padding: 0 15px;
+	background:#777777;
+	border-radius: 3px;
+	font-size: 150%;
+	line-height: 40px;
+	color: white;
+	text-align: right;
+}
+
+.buttons, .up {
+	overflow: hidden;
+}
+
+.buttons span, .up span.clear {
+	cursor: pointer;
+	float: left;
+	position: relative;
+	top: 0;
+	width: 66px;
+	height: 36px;
+	background: white;
+	border-radius: 3px;
+	margin: 0 20px 15px 0;
+	line-height: 36px;
+	text-align: center;
+}
+
+.buttons span.operator,.up span.clear {
+	background: #ff9fa8;
+	margin-right: 0;
+	color: white;
+}
+
+.buttons span.eq {
+	background: #a0d7de;
+}
+
+.buttons span:hover,.buttons span.eq:hover {
+	background: #B9EBFA;
+	color: white;
+}
+
+
+.up span.clear:hover,.buttons span.operator:hover {
+	background: #f68991;
+	color: white;
+}
+
+.buttons span:active,.buttons span.eq:active,.up span.clear:active {
+	top: 10px;
+}
+
+
